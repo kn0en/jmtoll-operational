@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/officerName"
+        android:textSize="20sp"
+        android:text="officer Name"
+        android:fontFamily="@font/jmtoll_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/officerRuas"
+        android:textSize="18sp"
+        android:text="Ruas Tol"
+        android:fontFamily="@font/jmtoll_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/officerDistance"
+        android:textSize="18sp"
+        android:text="Distance"
+        android:fontFamily="@font/jmtoll_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/officerAvailableId"
+        android:textSize="22sp"
+        android:text="riderRequestId"
+        android:fontFamily="@font/jmtoll_medium"
+        android:visibility="gone"/>
+
+</LinearLayout>
